@@ -55,7 +55,7 @@ public class sendmail {
 
             multipart.addBodyPart(messageBodyPart);
             message.setContent(multipart);
-            Transport.send(message);
+            Transport.send(message); 
             System.out.println("Message sent successfully");
             
         }catch(MessagingException me)
